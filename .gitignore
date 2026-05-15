@@ -2,7 +2,11 @@
 Raw/
 
 # Pipeline outputs — regenerated, never committed
-data/
+data/*
+!data/reports/
+data/reports/*
+# …except the shareable explainer
+!data/reports/explainer.html
 
 # Python
 __pycache__/
