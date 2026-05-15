@@ -1,0 +1,49 @@
+# Raw data — downloaded by each person, never committed
+Raw/
+
+# Pipeline outputs — regenerated, never committed
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual envs
+.venv/
+venv/
+env/
+.uv/
+
+# Build artefacts
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+
+# Caches
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs / outputs
+*.log
+runs/
+outputs/
+models/
+checkpoints/
+*.pkl
+*.joblib
+
+# Streamlit
+.streamlit/secrets.toml
